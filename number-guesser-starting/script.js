@@ -12,7 +12,9 @@ function generateTarget() {
   //console.log(generateTarget());
 
   // Step 2
-
+  function compareGuesses(human, computer, secret) {
+    
+  }
 
   // Step 3
 
