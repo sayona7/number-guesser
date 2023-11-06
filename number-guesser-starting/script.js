@@ -16,7 +16,19 @@ function generateTarget() {
 
   // Step 3
 
+  function updateScore(value) {
+    if (value === 'human') {
+      humanScore++;
+    }
   
+    if (value === 'computer') {
+      computerScore++;
+    }
+  
+  }
 
   // Step 4
 
+  function advanceRound() {
+    currentRoundNumber++;
+  }
